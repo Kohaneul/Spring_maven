@@ -1,0 +1,10 @@
+let nullCheck = document.getElementById('#nullCheck');
+nullCheck.addEventListener('click',function(nullCheck.value));
+
+function checkNull(str){
+	if(!str){
+	alert("선택하지 않았습니다.");
+		location.reload();
+	}
+	}
+

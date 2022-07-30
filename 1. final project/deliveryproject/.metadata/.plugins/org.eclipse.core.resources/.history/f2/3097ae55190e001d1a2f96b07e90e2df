@@ -1,0 +1,14 @@
+let resno;
+function radioClick(no){
+	let noVal = document.getElementsById('no').value;
+	noVal = no;
+	resno = noVal;
+}
+
+
+function onClick(){
+	if(resno==""||resno==undefined){
+			alert("다시입력해주세요");
+		location.href = "/deli/member/place/restaurant.dlv";
+		}
+}

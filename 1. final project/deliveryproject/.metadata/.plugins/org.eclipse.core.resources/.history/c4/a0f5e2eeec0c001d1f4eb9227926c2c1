@@ -1,0 +1,3 @@
+let content= document.querySelectorAll('.content');
+content.forEach((target)=>target.addEventListener('mouseover',mouseOver('#48D1CC')));
+content.forEach((target)=>target.addEventListener('mouseout',mouseOver('#ffffff')));

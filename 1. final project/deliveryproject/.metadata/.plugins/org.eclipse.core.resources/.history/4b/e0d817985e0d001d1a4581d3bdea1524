@@ -1,0 +1,4 @@
+let msg = document.getElementById("msg");
+if(msg.textContent){
+	alert(msg.value);
+}

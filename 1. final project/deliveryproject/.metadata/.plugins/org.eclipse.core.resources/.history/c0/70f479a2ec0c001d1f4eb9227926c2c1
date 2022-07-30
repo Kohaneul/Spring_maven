@@ -1,0 +1,22 @@
+let content= document.querySelectorAll('.content');
+
+
+for(let i = 0; i<content.length;i++){
+	content[i].forEach((target)=>target.addEventListener('mouseover',function(){
+	content.style.backgroundColor="#48D1CC"
+}));
+}
+
+
+
+
+
+content[i].forEach((target)=>target.addEventListener('mouseover',function(){
+	content.style.backgroundColor="#48D1CC"
+}));
+
+content.forEach((target)=>target.addEventListener('mouseout',function(){
+	content.style.backgroundColor="#ffffff"
+}));
+
+

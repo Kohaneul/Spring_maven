@@ -1,0 +1,8 @@
+const msg = document.getElementById("msg");
+
+const btn = document.getElementById("btn");
+btn.addEventListener("click",function(){
+	if(msg){
+		alert(msg);
+	}
+})

@@ -1,0 +1,6 @@
+function onClick(str){
+	if(str==null){
+		alert("선택하지 않았습니다.");
+		
+	}
+	}

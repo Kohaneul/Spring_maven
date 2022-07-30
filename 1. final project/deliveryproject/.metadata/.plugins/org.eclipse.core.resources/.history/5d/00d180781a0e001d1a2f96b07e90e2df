@@ -1,0 +1,13 @@
+function radioClick(no){
+	document.getElementsById('no').value = no;
+}
+
+
+function onClick(){
+	let no = document.getElementsById('no').value;
+	if(no==""||no==undefined){
+			alert("다시입력해주세요");
+		
+		return;
+		}
+}

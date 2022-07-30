@@ -1,0 +1,10 @@
+let msg = document.getElementById("msg").textContent;
+
+const btn = document.getElementById("btn");
+btn.addEventListener("click",function(){
+	console.log(msg);
+	if(msg==null){}
+	else{
+			alert(msg);
+	}
+})

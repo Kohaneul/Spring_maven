@@ -1,0 +1,11 @@
+let msg = document.getElementById("msg").innerHTML;
+
+const btn = document.getElementById("btn");
+btn.addEventListener("click",function(){
+	if(msg==null){}
+	else{
+			console.log(msg);
+
+			alert(msg);
+	}
+})

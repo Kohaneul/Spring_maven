@@ -1,0 +1,6 @@
+const msg = document.getElementById("msg");
+
+const btn = document.getElementsByClassName("btn");
+document.getElementsByClassName("btn"){
+	
+}

@@ -1,0 +1,6 @@
+function nullClick(str){
+	if(!str){
+		alert("선택하지 않았습니다.");
+		location.reload();
+	}
+	}

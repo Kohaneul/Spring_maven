@@ -1,0 +1,11 @@
+let content= document.querySelectorAll('.content');
+
+content.forEach((target)=>target.addEventListener('mouseover',function(){
+	content.style.backgroundColor="#48D1CC"
+}));
+
+content.forEach((target)=>target.addEventListener('mouseout',function(){
+	content.style.backgroundColor="#ffffff"
+}));
+
+

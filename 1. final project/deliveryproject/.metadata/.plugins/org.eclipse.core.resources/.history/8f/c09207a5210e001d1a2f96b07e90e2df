@@ -1,0 +1,14 @@
+function radioClick(no){
+	document.getElementById('no').value = no;
+}
+
+
+
+function onClick(){
+	let no = document.getElementById('no').value;
+	if(!no){
+			alert("다시입력해주세요");
+		//	deli/place/restaurant.dlv?place_name=약수역&code=1010
+		//	return;
+		}
+}

@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<button><a href="<c:url value='/member/insertId.dlv'/>">아이디입력</a></button>
+<button><a href="<c:url value='/member/insertId.dlv'/>">faq</a></button>
+
+</body>
+</html>

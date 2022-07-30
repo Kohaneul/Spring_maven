@@ -1,0 +1,14 @@
+let resno;
+function radioClick(no){
+	let num = document.getElementsById('no').value;
+	num = no;
+	resno = num;
+}
+
+
+function onClick(){
+	if(resno==""||resno==undefined){
+			alert("다시입력해주세요");
+		return;
+		}
+}
